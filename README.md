@@ -79,7 +79,7 @@ plt.xlabel('Date', fontsize=22, fontweight='bold', fontname='Monospace')
 plt.xticks(rotation=45, fontsize=10, fontname='Verdana')
 plt.yticks(fontsize=10, fontname='Verdana')
 plt.ylim(0, data['Close'].max() + 10)
-
+ 
 plt.grid(True)
 plt.show()
 
